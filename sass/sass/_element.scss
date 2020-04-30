@@ -200,8 +200,8 @@ img.img-responsive {
     max-height: 80%;
     margin: 0;
     @include screen('xs_mobile') {
-        width: auto;
-        height: auto;
+        width: 96%;
+        height: 80%;
         max-width: 96%;
         max-height: 80%;
     }

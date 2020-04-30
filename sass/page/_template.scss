@@ -141,6 +141,10 @@ body {
                 justify-content: center;
             }
             .ios, .android {
+                p{
+                    color:#FFF;
+                    text-align: center;
+                }
                 margin: 0 15px;
                 flex: 0 1 calc(50% - 30px);
                 max-width: 250px;
@@ -173,6 +177,10 @@ body {
                     padding: 1em;
                     justify-content: center;
                     margin-bottom: 1em;
+                    p{
+                        color:$primaryColor;
+                        font-size: .875rem;
+                    }
                     span {
                         flex: 0 0 100%;
                         text-align: center;
@@ -240,7 +248,7 @@ body {
             background: #204998;
             display: inline-block;
             text-align: center;
-            box-shadow: 0px 0px 40px lighten(#204998, 20);
+            // box-shadow: 0px 0px 40px lighten($color-blue,10);
             transition: .3s ease-out;
             &:hover, &:focus {
                 color: #222;
@@ -325,4 +333,7 @@ body {
     >.container {
         @include gutter(); //gutter 代表左右要留白
     }
+}
+.fancybox-slide{
+    padding:15px !important;
 }
