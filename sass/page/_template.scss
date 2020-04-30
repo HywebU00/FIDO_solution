@@ -339,5 +339,8 @@ body {
     }
 }
 .fancybox-slide{
+    @include screen('mobile') {
     padding:15px !important;
+
+    }
 }
