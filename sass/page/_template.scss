@@ -201,6 +201,10 @@ body {
         .arc {
             left: 9%;
             top: -10%;
+            @include screen('mobile') {
+                left: -12%;
+                top: -7%;
+            }
             @include screen('xs_mobile') {
                 left: -20%;
                 top: -7%;
